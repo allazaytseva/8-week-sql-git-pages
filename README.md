@@ -190,7 +190,7 @@ FROM pop_item
 WHERE order_rank = 1;
 ````
 |product_name|customer_id|order_count|
-------------|-----------|-----------|
+|------------|-----------|-----------|
 |ramen       |A          |          3|
 |sushi       |B          |          2|
 |ramen       |B          |          2|
@@ -290,7 +290,7 @@ WHERE s.order_date < e.join_date
 GROUP BY s.customer_id
 ````
 |customer_id|COUNT (s.product_id)|SUM (m.price)|join_date |order_date|
------------|--------------------|-------------|----------|----------|
+|-----------|--------------------|-------------|----------|----------|
 |A          |                   2|           25|2021-01-07|2021-01-01|
 |B          |                   3|           40|2021-01-09|2021-01-04|
 
