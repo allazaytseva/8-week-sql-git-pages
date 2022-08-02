@@ -189,8 +189,8 @@ SELECT product_name, customer_id, order_count
 FROM pop_item
 WHERE order_rank = 1;
 ````
-| product_name | customer_id | order_count |
-| ------------ |---------- | ----------- |
+| product_name | customer_id | order_count 
+| ------------ |---------- | ----------- 
 | ramen       | A          |          3 |
 | sushi       | B          |          2 |
 | ramen       | B          |          2 |
