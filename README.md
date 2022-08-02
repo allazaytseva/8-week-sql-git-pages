@@ -189,8 +189,9 @@ SELECT product_name, customer_id, order_count
 FROM pop_item
 WHERE order_rank = 1;
 ````
-| product_name | customer_id | order_count 
-| ------------ |---------- | ----------- 
+
+| product_name | customer_id | order_count |
+| ------------ |---------- | ----------- |
 | ramen       | A          |          3 |
 | sushi       | B          |          2 |
 | ramen       | B          |          2 |
@@ -289,6 +290,7 @@ FROM ((menu m JOIN sales s ON m.product_id = s.product_id) JOIN members e ON e.c
 WHERE s.order_date < e.join_date
 GROUP BY s.customer_id
 ````
+
 | customer_id | COUNT (s.product_id) | SUM (m.price) | join_date  | order_date |
 | ----------- | -------------------- | ------------- | ---------- | ---------- |
 | A          |                   2 |           25 | 2021-01-07 | 2021-01-01 |
