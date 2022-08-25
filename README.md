@@ -31,24 +31,35 @@ Click here to expand!
 </summary>
 
 1. What is the total amount each customer spent at the restaurant?
+ 
 
 2. How many days has each customer visited the restaurant?
+ 
 
 3. What was the first item from the menu purchased by each customer?
+ 
 
 4. What is the most purchased item on the menu and how many times was it purchased by all customers?
+ 
 
 5. Which item was the most popular for each customer?
+ 
 
 6. Which item was purchased first by the customer after they became a member?
+ 
 
 7. Which item was purchased just before the customer became a member?
+ 
+ 
+8. What is the number of unique menu items and total amount spent for each member before they became a member? 
+ 
 
-10. What is the total items and amount spent for each member before they became a member?
-
-11. If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
-
-12. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January?
+9. If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
+ 
+ 
+10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January?
+ 
+11. Danny and his team can use to quickly derive insights without needing to join the underlying tables using SQL Recreate the following table output using the available data. 
 </details>
 
 
